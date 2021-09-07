@@ -1,0 +1,109 @@
+
+
+body {
+    background-color:#D9946C;
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+section {
+    width: 100%;
+    background-color:#BF6D4E;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 3px solid orange; */
+    background-color:#F2F2F2;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li {
+    width: 5rem;
+    text-align: center;
+    display: inline-block;
+}
+.navbar a {
+    font-size: 12px;
+    color:grey;
+    text-decoration: none;
+    display: block;
+}
+.navbar a:hover{
+  background-color: #A9BF7A;
+  border-radius: 10px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+    color:grey;
+    font-size: 20px;
+}
+/*.div1 {
+    border: 3px solid palegreen; 
+}*/
+h1{
+    font-family: 'Amatic SC', cursive;
+    padding: 20px;
+    font-size: 50px;
+    /* border: 3px solid red; */
+    text-align: center;
+    color: #F2F2F2;
+}
+h2{
+    font-family: 'Amatic SC', cursive;
+    padding: 20px;
+    font-size: 30px;
+    /* border: 3px solid blue; */
+    text-align: center;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+.h3 h3{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #F2F2F2;
+    text-decoration: underline;
+    width: 100%;
+    background-color:#BF6D4E;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+img{
+    width: 150px;
+}
+.photo-grid-container {
+    column-count: 3;
+    width: 100%;
+    /* border: 3px solid purple;*/
+}
+.photo-grid-item{
+    max-width: 400px;
+    width: 100%;
+    /* border: 3px solid palevioletred;*/
+    text-align: center;
+    column-gap: 20px;
+}
+footer{
+    background-color:#F2F2F2;
+    width: 100%;
+}
+h4 {
+    font-family: 'Amatic SC', cursive;
+    color: #A9BF7A;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}

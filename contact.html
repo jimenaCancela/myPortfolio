@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style-contact.css"></link>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <title>🦄 Contact Me 🦄</title>
+</head>
+<body>
+	<div class="wrapper">
+		<section>
+			<h1>Contact Form</h1>
+			<p>Fill out the form below and we will get in touch with you as soon as possible.</p>
+		<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES
+		" method="POST">
+			<input type="hidden" name="send_to" value="cancelajimena@gmail.com">
+			<fieldset>
+			<legend>Your Information</legend>
+			<label for="name">Name</label>
+				<input type="text" id="name" name="name"> 
+			<label for="phone">Phone Number</label>
+				<input type="tel" id="phone" name="phone" placeholder="Include country code!"> 
+			<label for="email">Email</label>
+				<input type="email" id="email" name="email">
+			</fieldset>
+			<fieldset>
+			<legend>About your enquire</legend>
+			<label for="date">Requested date:</label>
+				<input type="date" id="date" name="date">
+			<label for="">What via of communication do you prefer?</label>
+			<select id="communication" name="commmunication">
+				<option value="call">Phone call</option>
+				<option value="whatsapp">WhatsApp</option>
+				<option value="email">Email</option>
+				<option selected>Select one...</option>
+			</select>
+			<label for="comments">Special requests:</label>
+			<textarea id="comments" name="comments"></textarea>
+			<label>
+			<input type="checkbox" value="subscribe" name="subscribe" checked> Add me to your email list!
+			</label>
+			</fieldset>	
+			<button type="submit">🦄</button>
+			</form>	
+		</section>
+		<aside>
+			<h3>Our Location</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.639226037158!2d-9.439362185296668!3d38.70313066597797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec416fa42490f%3A0x6e9f4fb8c0bfb825!2sAv.%20Gon%C3%A7alo%20Velho%20Cabral%204%2C%202750-364%20Cascais!5e0!3m2!1ses!2spt!4v1630859233971!5m2!1ses!2spt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<address>
+				&middot;
+				Avenida Gonçalo Velho Cabral nº 4 &middot;
+				Cave Frente &middot; 2750-364
+				Cascais, Lisboa.&middot
+			</address>
+		</aside>
+	</div>
+	<script src="js/forms.js"></script>
+</body>
+</html>
